@@ -4,10 +4,8 @@ from monstro import Monstro
 from lobo import Lobo
 from goblin import Goblin
 
-# criando o personagem
 personagem = Personagem(pontos_de_vida=100, pontos_de_ataque=20, nome="Herói")
 
-# criando o goblin
 goblin = Goblin(pontos_de_vida=50, pontos_de_ataque=10, tipo="Goblin", inteligencia=5)
 
 print("Antes do ataque")
