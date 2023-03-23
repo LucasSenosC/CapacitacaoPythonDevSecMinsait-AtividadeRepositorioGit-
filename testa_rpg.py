@@ -15,6 +15,5 @@ print(f"{goblin.tipo}: {goblin.pontos_de_vida} pontos de vida")
 goblin.atacar(personagem)
 
 print("Depois do ataque")
-# exibindo os pontos de vida depois do ataque
 print(f"{personagem.nome}: {personagem.pontos_de_vida} pontos de vida")
 print(f"{goblin.tipo}: {goblin.pontos_de_vida} pontos de vida")
