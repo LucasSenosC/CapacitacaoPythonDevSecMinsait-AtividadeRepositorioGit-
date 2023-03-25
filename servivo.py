@@ -5,6 +5,11 @@ class SerVivo:
         self.pontos_de_vida_maxima: int = pontos_de_vida
         self.pontos_de_vida: int = pontos_de_vida
         self.pontos_de_ataque: int = pontos_de_ataque
+    
+    # Ataque de um monstro a um outro ser vivo
+    # Subtrai os pontos de ataque de um ser vivo A dos pontos de vida de um outro ser vivo B
+    def atacar(self, outro_ser_vivo):
+        outro_ser_vivo.pontos_de_vida -= self.pontos_de_ataque
 
     # Metodo extra.
     # O ser vivo pode achar uma cura e se curar um determinado valor
